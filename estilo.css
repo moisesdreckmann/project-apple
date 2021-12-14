@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@keyframes filtro {
+    0% {
+        filter: hue-rotate(0)
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.l-body {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-apple {
+    color: rgb(255, 255, 255);
+    font-size: 7em;
+    text-shadow: 0 0 50px #1213FF,
+    0 0 100px #1213FF,
+    0 0 150px #1213FF,
+    0 0 200px #1213FF,
+    0 0 250px #1213FF;
+    animation: filtro 5s linear infinite;
+}
