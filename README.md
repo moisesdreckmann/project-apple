@@ -1,2 +1,9 @@
 # project-apple
- Animação de cores com logo Apple
+ 
+Animação de cores com logo Apple
+
+* Animation
+* Otimização de imagem para boa performance
+* SEO
+* Filters Effect
+* Box-Shadow personalizado
